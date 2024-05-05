@@ -1,4 +1,4 @@
-IsStarterPikachuInOurParty::
+IsStarterPikachuInOurParty:: ;STP_FOLLOWING_PIKACHU
 	ld hl, wPartySpecies
 	ld de, wPartyMon1OTID
 	ld bc, wPartyMonOT

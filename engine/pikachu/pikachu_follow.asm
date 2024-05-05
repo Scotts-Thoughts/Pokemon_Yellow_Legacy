@@ -1,4 +1,4 @@
-ShouldPikachuSpawn::
+ShouldPikachuSpawn:: ;STP_FOLLOWING_PIKACHU
 ; possibly to test if pika should be out?
 	ld a, [wPikachuOverworldStateFlags]
 	bit 5, a
