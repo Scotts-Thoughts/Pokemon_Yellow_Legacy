@@ -201,7 +201,11 @@
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; player starter
-DEF STARTER_PIKACHU EQU BULBASAUR ; TODO_STARTER ; STP_Starter
+DEF STARTER_PIKACHU EQU PIKACHU ; this defines which species of Pokemon shows the Pikachu sprite that follows you
+; STP_Starter
+DEF PKMN_STARTER EQU BULBASAUR ; TODO_STARTER this sets the Pokemon Oak encounters in Pallet Town and the one that you receive from Oak
+DEF PKMN_INTRO EQU BULBASAUR ; TODO_STARTER this sets the Pokemon that Oak shows you during the intro
+
 
 ; rival starters
 DEF RIVAL_STARTER_JOLTEON  EQU 1
